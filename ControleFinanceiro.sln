@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleFinanceiro", "ControleFinanceiro\ControleFinanceiro.csproj", "{D5483D03-024A-4497-92F1-E194920C9126}"
+	ProjectSection(ProjectDependencies) = postProject
+		{64B0E080-0A8E-480D-91C4-1B976E2077F2} = {64B0E080-0A8E-480D-91C4-1B976E2077F2}
+		{282553B8-0063-4393-A593-218C1767D3B8} = {282553B8-0063-4393-A593-218C1767D3B8}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleFinanceiro.Api", "ControleFinanceiro.Api\ControleFinanceiro.Api.csproj", "{282553B8-0063-4393-A593-218C1767D3B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleFinanceiro.Domain", "ControleFinanceiro.Domain\ControleFinanceiro.Domain.csproj", "{64B0E080-0A8E-480D-91C4-1B976E2077F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleFinanceiro.Data", "ControleFinanceiro.Data\ControleFinanceiro.Data.csproj", "{87B611D6-59AC-4E47-9E33-8CFA1432A534}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleFinanceiro.Service", "ControleFinanceiro.Service\ControleFinanceiro.Service.csproj", "{61BF4DAA-2667-45D0-A1A9-5C7C3B19D4AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5483D03-024A-4497-92F1-E194920C9126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5483D03-024A-4497-92F1-E194920C9126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5483D03-024A-4497-92F1-E194920C9126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5483D03-024A-4497-92F1-E194920C9126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{282553B8-0063-4393-A593-218C1767D3B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{282553B8-0063-4393-A593-218C1767D3B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{282553B8-0063-4393-A593-218C1767D3B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{282553B8-0063-4393-A593-218C1767D3B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B0E080-0A8E-480D-91C4-1B976E2077F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B0E080-0A8E-480D-91C4-1B976E2077F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B0E080-0A8E-480D-91C4-1B976E2077F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B0E080-0A8E-480D-91C4-1B976E2077F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B611D6-59AC-4E47-9E33-8CFA1432A534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B611D6-59AC-4E47-9E33-8CFA1432A534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B611D6-59AC-4E47-9E33-8CFA1432A534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B611D6-59AC-4E47-9E33-8CFA1432A534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61BF4DAA-2667-45D0-A1A9-5C7C3B19D4AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61BF4DAA-2667-45D0-A1A9-5C7C3B19D4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61BF4DAA-2667-45D0-A1A9-5C7C3B19D4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61BF4DAA-2667-45D0-A1A9-5C7C3B19D4AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9140278-C725-4071-B670-4FD378F12BC1}
+	EndGlobalSection
+EndGlobal
