@@ -25,7 +25,7 @@ namespace ControleFinanceiro.Api.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<CategoriaModel>>> GetCategorias()
         {
-            return await _contexto.Categorias.ToListAsync();
+            return await _contexto.Categorias.Include(c => c.Tipo).ToListAsync();
         }
 
         // GET api/<CategoriaController>/5

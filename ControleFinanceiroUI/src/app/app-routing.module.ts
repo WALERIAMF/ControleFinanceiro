@@ -1,0 +1,14 @@
+import { ListagemCategoriasComponent } from './components/Categoria/listagem-categorias/listagem-categorias.component';
+import { Routes, RouterModule } from '@angular/router';
+import { NgModule } from '@angular/core';
+
+const routes: Routes = [
+  {
+    path: 'categorias/listagemcategorias', component: ListagemCategoriasComponent
+  }
+];
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule {}

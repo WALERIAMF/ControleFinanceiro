@@ -33,7 +33,7 @@ namespace ControleFinanceiro.Api
 
             services.AddSpaStaticFiles(diretorio =>
             {
-                diretorio.RootPath = "ControleFinanceiro";
+                diretorio.RootPath = "ControleFinanceiroUI";
             });
             services.AddControllers()
                 .AddJsonOptions(opcoes =>
@@ -82,7 +82,7 @@ namespace ControleFinanceiro.Api
 
             app.UseSpa(spa =>
             {
-                spa.Options.SourcePath = Path.Combine(Directory.GetCurrentDirectory(), "ControleFinanceiro");
+                spa.Options.SourcePath = Path.Combine(Directory.GetCurrentDirectory(), "ControleFinanceiroUI");
 
                 if (env.IsDevelopment()) 
                 {
